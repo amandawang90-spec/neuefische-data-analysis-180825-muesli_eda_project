@@ -26,6 +26,7 @@ $ conda install <package_name>
   - Also after having created this environment, you can install additional packages within it. **Make sure you have activated your environment before installing new packages within it**!
   - Work in branches and push your changes to the repository in order to keep your notebooks synchronised.
   - Create a new .ipynb file and start with your EDA!
+  - It's a good idea to split different steps into different notebooks. Save intermediate results as `.csv`-files.
   - When working seperately from teammates use different files that can be combined later, or work carefully to avoid merge conflicts!
 
 
@@ -38,7 +39,15 @@ The work is timeboxed, and with that in mind, you need to change how you approac
 * Main questions should be answered first -> Think MVP (minimum viable product) and POC (proof of concept) 
 * Iterate: go deeper, go prettier, go better
 * Clean up .. feel free to delete things that are not useful anymore (even if you spent loads of time on it!)
- 
+
+## Suggested workflow for git
+
+* one person forks this repository
+* add the other team members as a collaborators
+* recommended but not necessary: work on your own branch.
+* split tasks in your group, push results and merge into main if other person needs your results.
+* in the end: merge everyhting into the main branch
+* at the final step the other person can fork the final state of the repo.
 
 **Have fun and do not stress yourself too much!!!**
 
