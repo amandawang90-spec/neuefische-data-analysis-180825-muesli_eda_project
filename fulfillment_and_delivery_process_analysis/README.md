@@ -124,12 +124,16 @@ The order process follows these stages:
 ```
 fulfilment-delivery-process-analysis/
 │
-├── data/                                       # Raw Excel files (not pushed to GitHub)
+├── data/                                                        # Raw Excel files (not pushed to GitHub)
 ├── notebooks/
-│   ├── 01_eda_and_visualization.ipynb                            # Data cleaning, KPI engineering & EDA
-│   └── 02_advanced_statistical_analysis.ipynb  # Distribution checks, skewness & confidence intervals
-├── report/                                     # Stakeholder presentation (Google Slides)
+│   ├── jing_eda_and_visualization.ipynb                         # Data cleaning, KPI engineering & EDA (Jing's KPIs)
+│   ├── jamil_eda_and_visualization.ipynb                        # Data cleaning, KPI engineering & EDA (Jamil's KPIs)
+│   ├── janina_eda_and_visualization.ipynb                       # Data cleaning, KPI engineering & EDA (Janina's KPIs)
+│   ├── final_analysis_eda_and_visualization.ipynb               # Combined EDA & visualisation (team)
+│   └── jing_advanced_statistical_analysis.ipynb                 # Advanced statistical analysis — supplement (individual contribution)
+├── report/                                                      # Stakeholder presentation (Google Slides)
 └── README.md
+
 ```
 
 ---
