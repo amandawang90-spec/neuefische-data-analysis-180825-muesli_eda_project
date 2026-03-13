@@ -126,7 +126,7 @@ fulfilment-delivery-process-analysis/
 │
 ├── data/                                       # Raw Excel files (not pushed to GitHub)
 ├── notebooks/
-│   ├── 01_eda.ipynb                            # Data cleaning, KPI engineering & EDA
+│   ├── 01_eda_and_visualization.ipynb                            # Data cleaning, KPI engineering & EDA
 │   └── 02_advanced_statistical_analysis.ipynb  # Distribution checks, skewness & confidence intervals
 ├── report/                                     # Stakeholder presentation (Google Slides)
 └── README.md
