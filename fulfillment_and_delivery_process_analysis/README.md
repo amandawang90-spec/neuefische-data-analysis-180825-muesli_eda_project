@@ -90,7 +90,7 @@ The order process follows these stages:
 1. **Clone the repository**
    ```bash
    git clone git@github.com:amandawang90-spec/neuefische-data-analysis-180825-muesli_eda_project.git
-   cd fulfilment-delivery-process-analysis
+   cd fulfilment_and_delivery_process_analysis
    ```
 
 2. **Install dependencies**
